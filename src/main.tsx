@@ -1,11 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "modern-normalize/modern-normalize.css";
+import { Media } from "./Media.tsx";
+import bio from "./assets/bio.jpg";
 
-import { Media } from './Media.tsx';
-import bio from './assets/bio.jpg';
-//import './index.css';
-
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Media
       title="Taiju Muto"
