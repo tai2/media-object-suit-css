@@ -1,0 +1,53 @@
+.Media {
+    display: flex;
+}
+
+.Media-leftSide {
+    flex-basis: 60px;
+    display: flex;
+    align-items: start;
+}
+
+.Media-rightSide {
+    flex: 1;
+    padding: 0.2rem 0.5rem;
+
+}
+
+.Media-row {
+    padding: 0.2rem;
+}
+
+.Media-image {
+    width: 100%;
+}
+
+.Media-title {
+    color: #0066ff;
+    margin-right: 0.5rem;
+    line-height: 1.4;
+}
+
+.Media-content {
+    color: #555555;
+}
+
+.Media-date {
+    color: #808080;
+}
+
+.Media-separator {
+    color: #808080;
+    margin: 0 0.5rem;
+}
+
+.Media-button {
+    color: #808080;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.Media-button:hover {
+    text-decoration: underline;
+}

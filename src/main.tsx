@@ -9,8 +9,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <Media
       title="Taiju Muto"
       imageUrl={bio}
-      content="酒も飲みたいけど、仕事もしなくちゃならん。間をとって、エールハウスでギネス飲みながらコードを書こう"
-      date={new Date()}
+      content="酒も飲みたいけど、仕事もしなくちゃならん。間をとって、エールハウスでギネス飲みながらコードを書こう。"
+      date={new Date('2010-11-12T17:35:00.000+09:00')}
       onDeleteClick={() => {}}
     />
   </React.StrictMode>
